@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 import random
 
-randomization = random.randint(1, 10)
+randomization = random.randint(1, 10000)
 print(randomization)
 
 driver = webdriver.Chrome()
